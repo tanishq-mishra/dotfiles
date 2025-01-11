@@ -5,6 +5,10 @@ vim.g.background = "light"
 
 vim.opt.swapfile = false
 
+-- File operations 
+vim.keymap.set('n', '<leader>q', ':q<CR>')
+vim.keymap.set('n', '<leader>w', ':w<CR>')
+
 -- Navigate vim panes better
 vim.keymap.set('n', '<c-k>', ':wincmd k<CR>')
 vim.keymap.set('n', '<c-j>', ':wincmd j<CR>')
@@ -36,7 +40,9 @@ vim.opt.splitbelow = true
 vim.opt.splitright = true
 vim.opt.splitkeep = "cursor"
 vim.opt.laststatus = 0
+vim.opt.colorcolumn = "120"
 
 -- prevent copying on deletion
 vim.keymap.set('n', 'd', '"_d')
 vim.keymap.set('v', 'd', '"_d')
+
