@@ -1,8 +1,24 @@
 return {
-  "olimorris/onedarkpro.nvim",
+  "navarasu/onedark.nvim",
   priority = 1000,
   config = function()
-    vim.cmd("colorscheme onedark")
+    require("onedark").setup({
+      style = "warmer",
+      term_colors = true,
+      code_style = {
+        comments = "italic",
+        keywords = "none",
+        functions = "none",
+        strings = "none",
+        variables = "none",
+      },
+
+      -- Lualine options --
+      lualine = {
+        transparent = true, -- lualine center bar transparency
+      },
+    })
+    require("onedark").load()
   end,
 }
 
