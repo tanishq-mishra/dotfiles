@@ -1,7 +1,7 @@
-theme = Oxocarbon
+theme = Atom
 shell-integration = zsh
 shell-integration-features = no-cursor, sudo, title
-macos-option-as-alt = true 
+macos-option-as-alt = true
 
 font-family = "MesloLGS NF Regular"
 font-family-bold = "MesloLGS NF Bold"
@@ -16,3 +16,5 @@ macos-titlebar-style = hidden
 window-padding-x = 10
 window-padding-y = 10
 
+background=#282c34
+foreground=#abb2bf
