@@ -8,8 +8,8 @@ return {
       code_style = {
         comments = "italic",
         keywords = "none",
-        functions = "none",
-        strings = "none",
+        functions = "bold",
+        strings = "italic",
         variables = "none",
       },
 
