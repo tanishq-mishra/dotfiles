@@ -1,4 +1,4 @@
-theme = Atom
+theme = onedark-warmer
 shell-integration = zsh
 shell-integration-features = no-cursor, sudo, title
 macos-option-as-alt = true
@@ -13,8 +13,12 @@ quick-terminal-position=right
 # window decorations
 
 macos-titlebar-style = hidden
-window-padding-x = 10
-window-padding-y = 10
+window-padding-x = 1
+window-padding-y = 5,0
+
+#underline config for indent-blankline nvim
+adjust-underline-position = -2
+adjust-underline-thickness = 150%
 
 background=#232326
 foreground=#A7AAB0
