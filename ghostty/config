@@ -8,7 +8,7 @@ font-family-bold = "MesloLGS NF Bold"
 font-family-italic = "MesloLGS NF Italic"
 font-family-bold-italic = "MesloLGS NF Bold Italic"
 keybind = opt+q=toggle_quick_terminal
-quick-terminal-position=right
+quick-terminal-position=bottom
 
 # window decorations
 
