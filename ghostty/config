@@ -18,7 +18,7 @@ window-padding-y = 5,0
 
 #underline config for indent-blankline nvim
 adjust-underline-position = 1
-adjust-underline-thickness = 125%
+adjust-underline-thickness = 115%
 
 background=#232326
 foreground=#A7AAB0

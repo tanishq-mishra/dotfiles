@@ -38,6 +38,9 @@ return {
       lspconfig.eslint.setup({
         capabilities = capabilities
       })
+      lspconfig.perlnavigator.setup({
+        capabilities = capabilities
+      })
       vim.diagnostic.config({
         virtual_text = false,
         open_float = true,

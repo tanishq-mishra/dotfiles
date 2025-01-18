@@ -17,5 +17,6 @@ return {
 		vim.keymap.set("n", "<leader>gr", ":Lspsaga finder<CR>" , opts)
     vim.keymap.set("n", "<leader>ca", ":Lspsaga code_action<CR>" , opts)
     vim.keymap.set("n", "K", ":Lspsaga hover_doc<CR>" ,opts)
+    vim.keymap.set("n", "<leader>rn", ":Lspsaga rename<CR>" ,opts)
 	end,
 }
