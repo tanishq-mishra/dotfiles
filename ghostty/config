@@ -1,24 +1,23 @@
-theme = onedark-warmer
+theme = Oxocarbon
 shell-integration = zsh
 shell-integration-features = no-cursor, sudo, title
 macos-option-as-alt = true
 
-font-family = "MesloLGS NF Regular"
-font-family-bold = "MesloLGS NF Bold"
-font-family-italic = "MesloLGS NF Italic"
-font-family-bold-italic = "MesloLGS NF Bold Italic"
+font-family = "JetBrainsMono NFM Regular"
+font-family-bold = "JetBrainsMono NFM Bold"
+font-family-italic = "JetBrainsMono NFM Italic"
+font-family-bold-italic = "JetBrainsMono NFM Bold Italic
 keybind = opt+q=toggle_quick_terminal
 quick-terminal-position=bottom
 
+# underline 
+adjust-underline-position = 2
 # window decorations
 
 macos-titlebar-style = hidden
 window-padding-x = 1
 window-padding-y = 5,0
 
-#underline config for indent-blankline nvim
-adjust-underline-position = 1
-adjust-underline-thickness = 115%
+term = xterm-256color
 
-background=#232326
-foreground=#A7AAB0
+

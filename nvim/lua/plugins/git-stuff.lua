@@ -14,11 +14,10 @@ return {
 			require("gitsigns").setup()
 
 			vim.keymap.set("n", "<leader>gh", ":Gitsigns preview_hunk<CR>", {})
-			vim.keymap.set("n", "<leader>gp", ":Gitsigns prev_hunk<CR>", {})
-      vim.keymap.set("n", "<leader>gn", ":Gitsigns next_hunk<CR>", {})
-			vim.keymap.set("n", "<leader>gt", ":Gitsigns toggle_current_line_blame<CR>", {})
-      vim.keymap.set('n', '<leader>hr', ':Gitsigns reset_hunk<CR>', {})
-
+			vim.keymap.set("n", "<leader>gk", ":Gitsigns prev_hunk<CR>", {})
+			vim.keymap.set("n", "<leader>gj", ":Gitsigns next_hunk<CR>", {})
+			vim.keymap.set("n", "<leader>gb", ":Gitsigns toggle_current_line_blame<CR>", {})
+			vim.keymap.set("n", "<leader>gu", ":Gitsigns reset_hunk<CR>", {})
 		end,
 	},
 }

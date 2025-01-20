@@ -1,34 +1,43 @@
-return {
-  "navarasu/onedark.nvim",
-  priority = 1000,
-  config = function()
-    require("onedark").setup({
-      style = "warmer",
-      term_colors = true,
-      code_style = {
-        comments = "italic",
-        keywords = "none",
-        functions = "bold",
-        strings = "italic",
-        variables = "none",
-      },
-
-      -- Lualine options --
-      lualine = {
-        transparent = true, -- lualine center bar transparency
-      },
-    })
-    require("onedark").load()
-  end,
-}
-
 --return {
---  "nyoom-engineering/oxocarbon.nvim",
+--  "wtfox/jellybeans.nvim",
+--  priority = 1000,
 --  config = function()
---    vim.opt.background = "dark" -- set this to dark or light
---    vim.cmd("colorscheme oxocarbon")
+--    require("jellybeans").setup()
+--    vim.cmd.colorscheme("jellybeans")
 --  end,
 --}
+
+-- return {
+--   "navarasu/onedark.nvim",
+--   priority = 1000,
+--   config = function()
+--     require("onedark").setup({
+--       style = "warmer",
+--       term_colors = true,
+--       code_style = {
+--         comments = "italic",
+--         keywords = "none",
+--         functions = "bold",
+--         strings = "italic",
+--         variables = "none",
+--       },
+--
+--       -- Lualine options --
+--       lualine = {
+--         transparent = true, -- lualine center bar transparency
+--       },
+--     })
+--     require("onedark").load()
+--   end,
+-- }
+
+return {
+  "nyoom-engineering/oxocarbon.nvim",
+  config = function()
+    vim.opt.background = "dark" -- set this to dark or light
+    vim.cmd("colorscheme oxocarbon")
+  end,
+}
 
 --return {
 --	"rebelot/kanagawa.nvim",

@@ -30,8 +30,8 @@ vim.opt.ignorecase = true
 vim.opt.smarttab = true
 vim.opt.breakindent = true
 vim.opt.shiftwidth = 2
-vim.opt.tabstop = 2
-vim.opt.softtabstop = 2
+vim.opt.tabstop = 4
+vim.opt.softtabstop = 4
 vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.expandtab = true
@@ -41,6 +41,7 @@ vim.opt.splitright = true
 vim.opt.splitkeep = "cursor"
 vim.opt.laststatus = 0
 vim.opt.colorcolumn = "120"
+vim.opt.termguicolors = true
 
 -- prevent copying on deletion
 vim.keymap.set('n', 'd', '"_d')
