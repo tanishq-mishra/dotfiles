@@ -1,4 +1,4 @@
-theme = Oxocarbon
+theme = jellybeans
 shell-integration = zsh
 shell-integration-features = no-cursor, sudo, title
 macos-option-as-alt = true
@@ -10,14 +10,11 @@ font-family-bold-italic = "JetBrainsMono NFM Bold Italic
 keybind = opt+q=toggle_quick_terminal
 quick-terminal-position=bottom
 
-# underline 
-adjust-underline-position = 2
 # window decorations
 
 macos-titlebar-style = hidden
 window-padding-x = 1
 window-padding-y = 5,0
 
-term = xterm-256color
 
 

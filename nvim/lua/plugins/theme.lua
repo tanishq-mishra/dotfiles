@@ -1,11 +1,11 @@
---return {
---  "wtfox/jellybeans.nvim",
---  priority = 1000,
---  config = function()
---    require("jellybeans").setup()
---    vim.cmd.colorscheme("jellybeans")
---  end,
---}
+return {
+  "wtfox/jellybeans.nvim",
+  priority = 1000,
+  config = function()
+    require("jellybeans").setup({})
+    vim.cmd.colorscheme("jellybeans")
+  end,
+}
 
 -- return {
 --   "navarasu/onedark.nvim",
@@ -31,13 +31,13 @@
 --   end,
 -- }
 
-return {
-  "nyoom-engineering/oxocarbon.nvim",
-  config = function()
-    vim.opt.background = "dark" -- set this to dark or light
-    vim.cmd("colorscheme oxocarbon")
-  end,
-}
+--return {
+--  "nyoom-engineering/oxocarbon.nvim",
+--  config = function()
+--    vim.opt.background = "dark" -- set this to dark or light
+--    vim.cmd("colorscheme oxocarbon")
+--  end,
+--}
 
 --return {
 --	"rebelot/kanagawa.nvim",
