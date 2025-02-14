@@ -1,0 +1,34 @@
+{
+    "profiles": [
+        {
+            "complex_modifications": {
+                "rules": [
+                    {
+                        "description": "Map Home and Right Option to Hyper",
+                        "manipulators": [
+                            {
+                                "from": { "key_code": "home" },
+                                "to": {
+                                    "key_code": "left_shift",
+                                    "modifiers": ["left_command", "left_control", "left_option"]
+                                },
+                                "type": "basic"
+                            },
+                            {
+                                "from": { "key_code": "right_option" },
+                                "to": {
+                                    "key_code": "left_shift",
+                                    "modifiers": ["left_command", "left_control", "left_option"]
+                                },
+                                "type": "basic"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "name": "Default profile",
+            "selected": true,
+            "virtual_hid_keyboard": { "keyboard_type_v2": "ansi" }
+        }
+    ]
+}
